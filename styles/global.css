@@ -20,6 +20,11 @@
   --fs-lg: 2rem;
   --fs-base: 1.6rem;
   --fs-sm: 1.4rem;
+
+  --py-xl: 4.8rem;
+  --py-lg: 2.4rem;
+  --py-base: 1.6rem;
+  --px-lg: 2.4rem;
 }
 
 *,
@@ -84,5 +89,10 @@ ul[role='list'] {
     --fs-2xl: 6.4rem;
     --fs-xl: 4.8rem;
     --fs-lg: 3.2rem;
+
+    --py-xl: 8rem;
+    --py-lg: 4rem;
+    --py-base: 2.4rem;
+    --px-lg: 3.2rem;
   }
 }
