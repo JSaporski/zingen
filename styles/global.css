@@ -1,6 +1,7 @@
 :root {
   font-size: 62.5%;
 
+  /* Colors */
   --bg-color: #09090b;
   --surface-color: #18181b;
   --stroke-color: #27272a;
@@ -9,18 +10,22 @@
   --brand-color-primary: #f7b733;
   --brand-color-secondary: #fc4a1a;
 
+  /* Font Family & Fallbacks */
   --ff-sans: 'Inter', system-ui, sans-serif;
 
+  /* Font Weights */
   --fw-bold: 800;
   --fw-md: 500;
   --fw-base: 400;
 
+  /* Font Sizes */
   --fs-2xl: 4rem;
   --fs-xl: 2.4rem;
   --fs-lg: 2rem;
   --fs-base: 1.6rem;
   --fs-sm: 1.4rem;
 
+  /* Paddings */
   --py-xl: 4.8rem;
   --py-lg: 2.4rem;
   --py-base: 1.6rem;
@@ -83,13 +88,15 @@ ul[role='list'] {
   list-style: none;
 }
 
+/* 1280px - Desktop */
 @media (width >= 80em) {
-  /* 1280px */
   :root {
+    /* Font Sizes */
     --fs-2xl: 6.4rem;
     --fs-xl: 4.8rem;
     --fs-lg: 3.2rem;
 
+    /* Paddings */
     --py-xl: 8rem;
     --py-lg: 4rem;
     --py-base: 2.4rem;

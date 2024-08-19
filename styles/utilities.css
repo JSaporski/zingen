@@ -13,6 +13,18 @@
   gap: 1.6rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1.6rem;
+}
+
+.grid {
+  display: grid;
+}
+
 .py-xl {
   padding-block: var(--py-xl);
 }
@@ -29,6 +41,7 @@
   padding-inline: var(--px-lg);
 }
 
+/* 1280px - Desktop */
 @media (width >= 80em) {
   .container {
     --max-width: 128rem;
