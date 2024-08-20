@@ -80,7 +80,7 @@ h3 {
 }
 
 a {
-  font: var(--fw-md) var(--fs-base) / 1 var(--ff-sans);
+  font: var(--fw-md) var(--fs-base) / 1.5 var(--ff-sans);
   color: var(--text-color-secondary);
   text-decoration: none;
 }
