@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.gap-1 {
+.gap-1rem {
   gap: 1.6rem;
 }
 
@@ -52,7 +52,7 @@
 /* 1280px - Desktop */
 @media (width >= 80em) {
   .container {
-    --max-width: 128rem;
+    --max-width: 121.6rem;
   }
 
   .desktop-only {
@@ -62,5 +62,9 @@
   .even-col {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+  }
+
+  .gap-2\.4rem {
+    gap: 3.2rem;
   }
 }

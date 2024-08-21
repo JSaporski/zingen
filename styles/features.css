@@ -1,0 +1,51 @@
+#features {
+  & .cards {
+    grid-template-columns: 28rem repeat(2, 1fr) 28rem;
+    grid-template-areas:
+      'A B B C'
+      'D D E E';
+
+    & .card {
+      overflow: hidden;
+
+      &:has(img.desktop-only) {
+        display: flex;
+        gap: 3.2rem;
+
+        & div {
+          max-width: 25.6rem;
+        }
+
+        & > img {
+          max-width: 24rem;
+          margin-inline: auto;
+          filter: drop-shadow(1.6rem 1.6rem 6.4rem rgba(0, 0, 0, 0.64));
+        }
+      }
+
+      &:nth-child(2) {
+        grid-area: B;
+
+        & > img {
+          margin-top: -16rem;
+        }
+      }
+
+      &:nth-child(4) {
+        grid-area: D;
+
+        & > img {
+          margin-top: -16rem;
+        }
+      }
+
+      &:nth-child(5) {
+        grid-area: E;
+
+        & > img {
+          margin-bottom: -16rem;
+        }
+      }
+    }
+  }
+}
